@@ -1,15 +1,11 @@
 // document.getElementById("count-el").innerText = 5
 
+let countEl = document.getElementById("count-el")
 
-let bonusPoints = 50
-console.log(bonusPoints)
+let count = 0
 
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 45
-console.log(bonusPoints)
+ function increment() {
+    count = count + 1
+    countEl.innerText = count
+ }
 
