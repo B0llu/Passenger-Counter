@@ -36,6 +36,10 @@ button {
     background: radial-gradient(#FBBF24, #DC2626);
 }
 
+#decrement-btn {
+    background: radial-gradient(#FBBF24, #DC2626);
+}
+
 #save-btn {
     background: radial-gradient(#2563EB, #F9A8D4)
 }
